@@ -1,6 +1,6 @@
 ---
 
-## ✅ Here's Your Ready-to-Use `README.md`
+## ✅ `README.md`
 
 ```markdown
 # 🧹 AWS Unused Resource Tracker
@@ -11,7 +11,7 @@ A CLI tool to **track and report unused AWS resources** across EC2 instances, EB
 
 ## 📸 Output Preview
 
-> _(Insert your screenshot here)_
+> _(Insert your screenshot below)_
 
 ![CLI Output](./screenshot.png)
 
@@ -20,65 +20,58 @@ A CLI tool to **track and report unused AWS resources** across EC2 instances, EB
 ## 🚀 Features
 
 - 🔍 Scan **EC2, EBS, and ELB** resources for underutilization
-- 📊 Check CPU, network, and IOPS metrics via CloudWatch
-- 🧮 Estimate monthly **cost savings** using AWS Cost Explorer
-- 📁 Export reports to **CSV / JSON**
-- ✅ Supports **dry-run** mode for safe preview
-- 🌎 Multi-region support via `--region`
+- 📊 Analyze usage with CloudWatch metrics (CPU, network, IOPS)
+- 🧮 Estimate monthly **cost savings** via AWS Cost Explorer
+- 📁 Export results to **CSV / JSON**
+- ✅ Use `--dry-run` to preview without exporting or costing
+- 🌍 Multi-region support
 
 ---
 
 ## 📦 Installation
 
-### 1. Clone the repo:
+### 1. Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/aws-unused-tracker.git
 cd aws-unused-tracker
 ```
 
-### 2. Install as CLI:
+### 2. Install as a CLI tool:
 
 ```bash
 pip install .
 ```
 
-Now use it anywhere as:
-
-```bash
-aws-unused-tracker
-```
-
----
-
-## ⚙️ Usage
+### ✅ Usage
 
 ```bash
 aws-unused-tracker [OPTIONS]
 ```
 
-### 🔧 Common Flags:
+---
+
+## ⚙️ CLI Options
 
 | Option              | Description                                  |
 |---------------------|----------------------------------------------|
 | `--region`          | Specify one or more AWS regions              |
 | `--idle-only`       | Show only idle resources                     |
 | `--format`          | Output format: `table`, `json`, `csv`, `all`|
-| `--dry-run`         | Preview only, no export or cost lookup      |
+| `--dry-run`         | Preview only, no export or cost estimation  |
 
-### ✅ Examples
+---
+
+## 💡 Examples
 
 ```bash
-# Show all resources in all regions
-aws-unused-tracker
+# Scan all regions, output to terminal
+aws-unused-tracker --format table
 
-# Scan ap-south-1 only, table format
-aws-unused-tracker --region ap-south-1 --format table
+# Scan ap-south-1, only show idle
+aws-unused-tracker --region ap-south-1 --idle-only
 
-# Show only idle EC2/EBS/ELB resources
-aws-unused-tracker --idle-only
-
-# Run in dry-run mode (no file writes)
+# Dry-run mode (no files or billing data)
 aws-unused-tracker --dry-run
 ```
 
@@ -86,7 +79,7 @@ aws-unused-tracker --dry-run
 
 ## 🔐 Required IAM Permissions
 
-To run this tool, the user/role needs read-only permissions like:
+Minimum read-only permissions:
 
 ```json
 {
@@ -101,7 +94,7 @@ To run this tool, the user/role needs read-only permissions like:
 }
 ```
 
-### 💡 Optional (for cost estimates):
+**Optional for cost savings estimate:**
 
 ```json
 {
@@ -111,41 +104,47 @@ To run this tool, the user/role needs read-only permissions like:
 }
 ```
 
-Also ensure [Cost Explorer is enabled](https://console.aws.amazon.com/cost-reports/home?#/settings) in the account.
+👉 Also ensure **Cost Explorer is enabled** in your AWS Billing settings.
 
 ---
 
-## 📁 Outputs
+## 📁 Output Files
 
-Reports are saved in the `/output` folder as:
+By default, output is saved to the `/output` directory:
 
-- `ec2_idle_report.json / .csv`
-- `ebs_idle_report.json / .csv`
-- `elb_idle_report.json / .csv`
+- `ec2_idle_report.json` / `.csv`
+- `ebs_idle_report.json` / `.csv`
+- `elb_idle_report.json` / `.csv`
 
 ---
 
-## 📌 Roadmap
+## 🛣 Roadmap
 
-- [ ] Slack/email alerts for idle resources
-- [ ] Auto snapshot & stop (opt-in)
-- [ ] Tag compliance auditing
-- [ ] Multi-account cross-org mode
+- [ ] Slack/email notifications for idle resources
+- [ ] Resource tag compliance check
+- [ ] Multi-account org-wide support
 
 ---
 
 ## 👨‍💻 Author
 
-**Your Name**  
-GitHub: [@your-username](https://github.com/your-username)  
-Feel free to open issues or contribute!
+**Chirag Sharma**  
+GitHub: [@Chirag0401](https://github.com/Chirag0401)
+
+> Feel free to star ⭐ the repo, submit issues, or contribute!
 
 ---
 
 ## 📄 License
 
-MIT License — Use freely with credit. Contributions welcome 🙌
+Licensed under the [MIT License](LICENSE).  
+Use it freely, improve it proudly, contribute generously 🙌
 ```
 
 ---
 
+Once you add your `screenshot.png` file next to this, GitHub will render it beautifully.
+
+Let me know if you'd like me to:
+- Add badges (stars, license, version, Python)
+- Help prep for PyPI publishing next!
