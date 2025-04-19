@@ -1,6 +1,5 @@
 ## ✅ `README.md`
 
-```markdown
 # 🧹 AWS Unused Resource Tracker
 
 A CLI tool to **track and report unused AWS resources** across EC2 instances, EBS volumes, and ELBs — helping you identify cloud waste and **optimize AWS costs** 💸.
@@ -147,3 +146,5 @@ Once you add your `screenshot.png` file next to this, GitHub will render it beau
 Let me know if you'd like me to:
 - Add badges (stars, license, version, Python)
 - Help prep for PyPI publishing next!
+
+```
