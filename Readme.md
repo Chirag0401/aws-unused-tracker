@@ -8,8 +8,6 @@ A CLI tool to **track and report unused AWS resources** across EC2 instances, EB
 
 ## 📸 Output Preview
 
-> _(Insert your screenshot below)_
-
 ![CLI Output](./output.png)
 
 ---
@@ -138,13 +136,26 @@ GitHub: [@Chirag0401](https://github.com/Chirag0401)
 Licensed under the [MIT License](LICENSE).  
 Use it freely, improve it proudly, contribute generously 🙌
 ```
+MIT License
 
----
+Copyright (c) 2025 Chirag Sharma
 
-Once you add your `screenshot.png` file next to this, GitHub will render it beautifully.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell     
+copies of the Software, and to permit persons to whom the Software is         
+furnished to do so, subject to the following conditions:                      
 
-Let me know if you'd like me to:
-- Add badges (stars, license, version, Python)
-- Help prep for PyPI publishing next!
+The above copyright notice and this permission notice shall be included in    
+all copies or substantial portions of the Software.                           
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR    
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,      
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE   
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER       
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN    
+THE SOFTWARE.
 
 ```
