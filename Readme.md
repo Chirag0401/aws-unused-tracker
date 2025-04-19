@@ -1,5 +1,11 @@
 ## ✅ `README.md`
 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)](https://www.python.org/downloads/)
+[![GitHub Repo](https://img.shields.io/badge/repo-Chirag0401%2Faws--unused--tracker-blue)](https://github.com/Chirag0401/aws-unused-tracker)
+
+
 # 🧹 AWS Unused Resource Tracker
 
 A CLI tool to **track and report unused AWS resources** across EC2 instances, EBS volumes, and ELBs — helping you identify cloud waste and **optimize AWS costs** 💸.
