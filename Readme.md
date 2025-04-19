@@ -10,7 +10,7 @@ A CLI tool to **track and report unused AWS resources** across EC2 instances, EB
 
 > _(Insert your screenshot below)_
 
-![CLI Output](./screenshot.png)
+![CLI Output](./output.png)
 
 ---
 
