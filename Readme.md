@@ -33,7 +33,7 @@ A CLI tool to **track and report unused AWS resources** across EC2 instances, EB
 ```bash
 git clone https://github.com/your-username/aws-unused-tracker.git
 cd aws-unused-tracker
-```
+
 
 ### 2. Install as a CLI tool:
 
