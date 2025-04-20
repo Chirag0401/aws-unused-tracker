@@ -1,11 +1,10 @@
-## ✅ `README.# 🧹 AWS Unused Resource Tracker
+## ✅🧹 AWS Unused Resource Tracker
 
-![Open Source Love](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
-![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blue)
 
 A CLI tool to **track and report unused AWS resources** across EC2, EBS, and ELB.
 
-
+![Open Source Love](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)](https://www.python.org/downloads/)
 [![GitHub Repo](https://img.shields.io/badge/repo-Chirag0401%2Faws--unused--tracker-blue)](https://github.com/Chirag0401/aws-unused-tracker)
