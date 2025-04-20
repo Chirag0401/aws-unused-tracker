@@ -1,4 +1,9 @@
-## ✅ `README.md`
+## ✅ `README.# 🧹 AWS Unused Resource Tracker
+
+![Open Source Love](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blue)
+
+A CLI tool to **track and report unused AWS resources** across EC2, EBS, and ELB.
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
